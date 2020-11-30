@@ -2,12 +2,10 @@
 
 int main() {
 
-	int leapYear, comingLeapYear;
+	int leapYear;
 
 	printf("Enter year to check whether a Year is Leap or Not: ");
 	scanf("%d", &leapYear);
-
-	comingLeapYear = (leapYear % 4 == 3);
 
 	if (leapYear % 4 == 0) {
 		if(leapYear % 100 == 0) {
@@ -20,7 +18,7 @@ int main() {
 			printf("%d is a leap year", leapYear);
 		}
 	} else {
-		printf("Leap year will come after %d year", comingLeapYear);
+		printf("%d is not a Leap year", leapYear);
 	}
 
 	return 0;
