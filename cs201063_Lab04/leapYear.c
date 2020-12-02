@@ -17,9 +17,15 @@ int main() {
 		} else {
 			printf("%d is a leap year", leapYear);
 		}
-	} else {
-		printf("%d is not a Leap year", leapYear);
-	}
+	} 
+	else if(leapYear % 4 == 3)
+		printf("Leap year will come after 1 year");
+	else if(leapYear % 4 == 2)
+		printf("Leap year will come after 2 year");
+	else if(leapYear % 4 == 1)
+		printf("Leap year will come after 3 year");
+	else 
+		printf("Invalid Input");
 
 	return 0;
 }
