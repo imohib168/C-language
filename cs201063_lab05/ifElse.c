@@ -4,7 +4,7 @@ int main()
 {
 
     int totalMarks = 100;
-    float obtainedMarks, perc;
+    float obtainedMarks;
 
     printf("Obtained Marks: [out of 100]: ");
     scanf("%f", &obtainedMarks);
