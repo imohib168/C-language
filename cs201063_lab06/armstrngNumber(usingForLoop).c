@@ -2,20 +2,19 @@
 
 int main()
 {
-    int num, i, rem, res = 0;
-    printf("Enter a three-digit integer: ");
-    scanf("%d", &num);
 
-    for (i = num; i != 0; i /= 10)
+    int power = 0;
+    int base = 3;
+    int exp = 3;
+
+    for (int i = 1; i <= exp; i--)
     {
-        rem = i % 10;
-        res += rem * rem * rem;
+        power *= power;
     }
 
-    if (res == num)
-        printf("%d is an Armstrong number.", num);
-    else
-        printf("%d is not an Armstrong number.", num);
+    printf("%d", power);
+    printf("%d", base);
+    printf("%d", exp);
 
     return 0;
 }
