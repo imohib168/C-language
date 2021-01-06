@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Don pass argument
+// With no return
+
 void area(int square);
 
 int main()

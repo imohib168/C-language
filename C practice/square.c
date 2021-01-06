@@ -1,14 +1,18 @@
 #include <stdio.h>
 
-void area();
+// Don't pass arguement
+// No return
+
+
+void square();
 
 int main()
 {
-    area();
+    square();
     return 0;
 }
 
-void area()
+void square()
 {
     int sq;
     printf("Enter the side of the Square: ");

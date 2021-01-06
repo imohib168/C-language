@@ -10,7 +10,7 @@ int main()
     int factorialOfNumber, number, n, r, permutationOfNumber, combinationOfNumber;
     // Declaring Variables and can be asked by user
     number = 10;
-    n = 5;
+    n = 10;
     r = 5;
     // Calculation of user Input by functions
     factorialOfNumber = factorial(number);
